@@ -1,7 +1,7 @@
 The Main codes are "Grabcut.py" , "Graph-Cut.py" and "XAI-Graph-Cut.py"
-The Grabcut code is the one where you draw a box around the object needed. (no model to load required)
-The Graph-cut code is where u set the scribbles for foreground and background to segeemnt the image (no model to load required)
-The Graphcut XAI code is the one where u load the model, corresponding XAI masks to segment.
+The Grabcut.py is the one where you draw a box around the object needed. (no model to load required)
+The Graph-cut.py is where u set the scribbles for foreground and background to segment the image (no model to load required)
+The XAI-Graph-Cut.py is the one where u load the model and it's corresponding XAI masks to segment.
 in order to acquire the XAI masks u need to use each of the XAI masks codes to generate them using the "GoogLeNetAugmented.pt" which is a trained GoogLeNet CNN.
 How the netword was trained is explanied in the "training.py" code. Here the learning rate was set to 0.001 due to the low computaiton power I had.
 You can try to set it to 0.0001 in the AI Clustering.
