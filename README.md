@@ -1,4 +1,4 @@
-The Main codes are "Grabcut.py" , "Graphcut mask.py" and "Graphcut XAI.py"
+The Main codes are "Grabcut.py" , "Graph-Cut.py" and "XAI-Graph-Cut.py"
 The Grabcut code is the one where draw a box around the object needed. (no model to load required)
 The Graphcut mask code is where u set the scribbles for foreground and background to segeemnt the image (no model to load required)
 The Graphcut XAI code is the one where u load the model, corresponding XAI masks to segment.
